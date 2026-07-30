@@ -1,14 +1,19 @@
 # 🎬 Movie Recommendation System
 
-A content-based movie recommendation system built using **Python** and **Scikit-learn**. The system recommends similar movies by analyzing movie metadata such as genres, keywords, cast, crew, and plot overview.
+A content-based Movie Recommendation System built using **Python** and **Scikit-learn**. The system recommends similar movies by analyzing movie metadata such as genres, keywords, cast, crew, and plot overview. It uses **Natural Language Processing (NLP)** techniques and **Cosine Similarity** to find movies with similar content.
+
+---
 
 ## Features
 
-- Content-based movie recommendations
+- Content-based movie recommendation
 - Data preprocessing and feature engineering
 - Text vectorization using CountVectorizer
-- Similarity computation using Cosine Similarity
-- Model serialization with Pickle
+- Similarity calculation using Cosine Similarity
+- Fast movie recommendations based on content
+- Model serialization using Pickle
+
+---
 
 ## Technologies Used
 
@@ -20,29 +25,60 @@ A content-based movie recommendation system built using **Python** and **Scikit-
 - Pickle
 - Google Colab
 
+---
+
 ## Dataset
 
-This project uses the **TMDb 5000 Movies Dataset**, which includes movie metadata such as genres, cast, crew, keywords, and plot summaries.
+This project uses the **TMDb 5000 Movies Dataset**.
+
+**Dataset Link:**  
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+### Required Files
+
+- `tmdb_5000_movies.csv`
+- `tmdb_5000_credits.csv`
+
+Download these files and upload them to Google Colab before running the notebook.
+
+---
 
 ## Installation
 
-Install the required libraries:
+Install the required libraries using:
 
 ```bash
 pip install pandas numpy scikit-learn nltk
 ```
 
+---
+
+## Machine Learning Workflow
+
+1. Load the movie and credits datasets.
+2. Merge both datasets.
+3. Perform data cleaning and preprocessing.
+4. Extract important features (genres, keywords, cast, crew, overview).
+5. Create a combined **tags** feature.
+6. Convert text into numerical vectors using CountVectorizer.
+7. Compute movie similarity using Cosine Similarity.
+8. Recommend the top similar movies based on the selected movie.
+
+---
+
 ## Sample Recommendation
 
-**Input**
+### Input
 
 ```text
 Avatar
 ```
 
-**Output**
+### Output
 
 ```text
+Movies similar to 'Avatar'
+
 Guardians of the Galaxy
 John Carter
 Star Trek
@@ -50,18 +86,25 @@ Aliens
 Battle: Los Angeles
 ```
 
+---
+
 ## Future Improvements
 
-- Hybrid recommendation system
-- Collaborative filtering
-- Streamlit web interface
-- Movie poster integration using TMDb API
-- Cloud deployment
+- Hybrid Recommendation System
+- Collaborative Filtering
+- Streamlit Web Application
+- Movie Poster Integration using TMDb API
+- Personalized Recommendations
+- Cloud Deployment
+
+---
 
 ## Author
 
 **Sumant Kumar**
 
+---
+
 ## License
 
-This project is intended for educational and academic purposes.
+This project is developed for educational and academic purposes.
