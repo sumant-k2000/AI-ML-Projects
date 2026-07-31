@@ -1,6 +1,6 @@
-# 🚀 Lunar Lander Reinforcement Learning Agent using PPO
+#  Lunar Lander Reinforcement Learning Agent using PPO
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates how to train an autonomous Lunar Lander agent using **Reinforcement Learning (RL)**. The agent is trained in the **Gymnasium LunarLander-v3** environment using the **Proximal Policy Optimization (PPO)** algorithm from the Stable-Baselines3 library.
 
@@ -8,7 +8,7 @@ The objective of the agent is to safely land a spacecraft on the designated land
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Understand the fundamentals of Reinforcement Learning.
 - Train an intelligent agent using the PPO algorithm.
@@ -18,7 +18,7 @@ The objective of the agent is to safely land a spacecraft on the designated land
 
 ---
 
-## 🧠 Reinforcement Learning
+##  Reinforcement Learning
 
 Reinforcement Learning is a machine learning paradigm where an agent learns by interacting with an environment. Instead of learning from labeled data, the agent receives rewards or penalties based on its actions and gradually learns the best policy to maximize long-term rewards.
 
@@ -32,7 +32,7 @@ Reinforcement Learning is a machine learning paradigm where an agent learns by i
 
 ---
 
-## 🤖 PPO Algorithm
+##  PPO Algorithm
 
 Proximal Policy Optimization (PPO) is a policy-gradient reinforcement learning algorithm developed by OpenAI. It provides stable and efficient learning by limiting large policy updates during training.
 
@@ -45,7 +45,7 @@ Proximal Policy Optimization (PPO) is a policy-gradient reinforcement learning a
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3
 - Gymnasium
@@ -58,7 +58,7 @@ Proximal Policy Optimization (PPO) is a policy-gradient reinforcement learning a
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Install the required libraries before running the notebook.
 
@@ -70,7 +70,7 @@ pip install moviepy
 
 ---
 
-## 📈 Training Process
+##  Training Process
 
 The agent is trained using PPO for **100,000 timesteps**.
 
@@ -84,7 +84,7 @@ Training includes:
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 The trained model is evaluated over multiple episodes to calculate:
 
@@ -104,7 +104,7 @@ The recorded video demonstrates the agent's ability to land safely after trainin
 
 ---
 
-## 📸 Sample Output
+##  Sample Output
 
 Expected outputs include:
 
@@ -116,7 +116,7 @@ Expected outputs include:
 
 ---
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 
 After completing this project, you will understand:
 
@@ -130,7 +130,7 @@ After completing this project, you will understand:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible enhancements include:
 
@@ -143,7 +143,7 @@ Possible enhancements include:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Name:** Sumant Kumar
 
