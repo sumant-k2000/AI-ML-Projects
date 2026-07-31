@@ -96,7 +96,7 @@ Higher average rewards indicate better policy learning.
 
 ---
 
-## 🎥 Gameplay Recording
+##  Gameplay Recording
 
 The trained agent's gameplay is recorded using the Gymnasium `RecordVideo` wrapper.
 
@@ -157,6 +157,6 @@ Possible enhancements include:
 
 ---
 
-## 📄 License
+##  License
 
 This project is intended for educational and academic purposes.
